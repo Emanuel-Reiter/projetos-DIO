@@ -1,0 +1,217 @@
+:root{
+    --main-color: rgb(9, 16, 19);
+    --text-color-1: rgb(229, 234, 240);
+    --text-color-2: rgb(185, 197, 207);
+    --gradient-1: rgb(4, 29, 38);
+    --gradient-2: rgb(40, 76, 85);
+    --logo: rgb(204, 44, 78);
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: 300;
+
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    outline: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+header{
+    position: fixed;
+    z-index: 1000;
+
+    width: 100%;
+
+    background: linear-gradient(90deg, var(--gradient-1), var(--gradient-2));
+    box-shadow: 0 0 15px rgba(27, 27, 29, 0.5);
+}
+
+.header-content{
+    min-height: 40px;
+
+    padding: 16px 5vw 16px 5vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    color: var(--logo);
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: -2px;
+
+    margin: 0 16px 0 0;
+}
+
+.content-main{
+    display: flex;
+    align-items: center;
+}
+
+.content-main a{
+    color: var(--text-color-1);
+
+    margin: 0 0 0 16px;
+
+    transition: 0.2s;
+}
+
+.content-main a:hover{
+    color: var(--text-color-2);
+}
+
+.content-user{
+    display: flex;
+    align-items: center;
+}
+
+.content-user a{
+    font-size: 24px;
+    color: var(--text-color-1);
+
+    margin: 0 20px 0 0;
+
+    transition: 0.2s;
+}
+
+.content-user a:hover{
+    color: var(--text-color-2);
+}
+
+body{
+    background: var(--main-color);
+}
+
+.suggestion-banner{
+    background: linear-gradient(90deg, rgba(0, 13, 17, 0.75), rgba(0, 13, 17, 0.0)), url('../img/banner.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+    width: 100%;
+    min-height: 60vh;
+
+    padding: 0 5vw 0 5vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.suggestion-banner h2{
+    font-size: 48px;
+    color: var(--text-color-1);
+
+    padding: 72px 0 0 0;
+
+    margin: 0 0 16px 0;
+}
+
+.suggestion-banner p{
+    max-width: 50%;
+
+    margin: 0 0 24px 0;
+
+    text-align: justify;
+    font-size: 16px;
+    color: var(--text-color-1);
+}
+
+
+.button-container button{
+    height: 48px;
+    width: 256px;
+
+    border-radius: 4px;
+    border: none;
+
+    font-size: 16px;
+    color: var(--text-color-1);
+
+    background: rgba(0, 13, 17, 0.75);
+
+    transition: 0.2s;
+}
+
+.button-container button:hover{
+    background: rgb(229, 234, 240, 0.75);
+
+    color: rgb(0, 13, 17);
+}
+
+.button-container i{
+    margin: 0 8px 0 0;
+}
+
+.content-carousel{
+    padding: 0px 5vw 0px 5vw;
+}
+
+.content-carousel h2{
+    font-size: 28px;
+    color: var(--text-color-1);
+
+    margin: 16px 0 16px 0;
+}
+
+.thumbnail{
+    width: 100%;
+    height: 100%;
+    
+    background-size: cover;
+
+    display: block;
+}
+
+footer{
+    width: 100%;
+    
+    padding: 64px 5vw 64px 5vw;
+}
+
+hr{
+    border: solid 1px rgb(30, 48, 56);
+    margin: 64px 0 0 0;
+}
+
+footer h2{
+    color: var(--text-color-1);
+
+    margin: 0 0 32px 0;
+}
+
+.info-container{
+    display: flex;
+}
+
+footer a{
+    color: var(--text-color-1);
+}
+
+footer a:hover{
+    color: var(--text-color-2);
+}
+
+.info-container ul li{
+    list-style: none;
+
+    margin: 0 0 12px 0;
+}
+
+.info-container ul{
+    margin: 0 0 0 64px;
+}
+
+.info-container ul:first-child{
+    margin: 0 0 0 0;
+}
