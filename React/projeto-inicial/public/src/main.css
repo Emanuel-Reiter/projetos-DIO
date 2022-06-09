@@ -1,0 +1,15 @@
+:root{
+    --dark-color: rgb(14, 14, 29);
+    --light-color: rgb(240, 237, 227);
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: var(--dark-color);
+
+    outline: none;
+    
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "projeto-inicial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js"
+  },
+  "author": "Emanuel Reiter",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^5.0.1"
+  }
+}
